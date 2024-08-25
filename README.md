@@ -2,7 +2,7 @@
 
 ## Introduction
 
-PredatorSDK is a JavaScript library designed to interact with the Predator Bundler API. It provides functionality for buying, selling, and creating tokens on Raydium, pump.fun and Moonshot.
+PredatorSDK is a JavaScript library designed to interact with the Predator Bundler API. It provides functionality for buying, selling on Raydium, Moonshot and pump.fun. You can also create a token on pump.fun.
 
 ## Installation
 
