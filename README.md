@@ -19,7 +19,8 @@ npm i
 ```
 ## Usage
 
-Look at ```example.js``` for a better understanding of the sdk.
+You can start editing ```example.js``` for your needs and start code using: ```node example.js```.
+Be sure to rename ```.env.example``` to ```.env``` after updating it with your data.
 
 ### Initializing the SDK
 
