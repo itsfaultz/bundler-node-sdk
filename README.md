@@ -2,7 +2,7 @@
 
 ## Introduction
 
-PredatorSDK is a JavaScript library designed to interact with the Predator bot API. It provides functionality for buying, selling, and creating tokens on various blockchain networks.
+PredatorSDK is a JavaScript library designed to interact with the Predator Bundler API. It provides functionality for buying, selling, and creating tokens on Raydium, pump.fun and Moonshot.
 
 ## Installation
 
