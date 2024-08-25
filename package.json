@@ -1,0 +1,25 @@
+{
+    "name": "predator-sdk",
+    "version": "1.0.0",
+    "description": "SDK for interacting with the Predator bot API",
+    "main": "predator-sdk.js",
+    "scripts": {
+      "start": "node example.js"
+    },
+    "keywords": [
+      "predator",
+      "bot",
+      "sdk",
+      "crypto",
+      "blockchain"
+    ],
+    "author": "Faultz",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "crypto": "^1.0.1"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6"
+    }
+  }
