@@ -20,7 +20,7 @@ npm i
 ## Usage
 
 You can start editing ```example.js``` for your needs and start code using: ```node example.js```.
-Be sure to rename ```.env.example``` to ```.env``` after updating it with your data.
+Be sure to rename ```example.env``` to ```.env``` after updating it with your data.
 
 ### Initializing the SDK
 
