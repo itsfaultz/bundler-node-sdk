@@ -101,11 +101,3 @@ async function createToken() {
 ## Error Handling
 
 The SDK uses a custom error handling mechanism. Always wrap your calls in try-catch blocks to handle potential errors gracefully.
-
-## Contributing
-
-Contributions to PredatorSDK are welcome! Please submit pull requests or open issues on the GitHub repository.
-
-## License
-
-[Insert appropriate license information here]
