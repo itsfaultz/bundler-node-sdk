@@ -6,13 +6,20 @@ PredatorSDK is a JavaScript library designed to interact with the Predator bot A
 
 ## Installation
 
-To install PredatorSDK, use npm:
+Start downloading this repo with git.
 
 ```
-npm install predator-sdk
+git clone https://github.com/predatordotbot/bundler-node-sdk
 ```
 
+Install required node modules.
+
+```
+npm i
+```
 ## Usage
+
+Look at ```example.js``` for a better understanding of the sdk.
 
 ### Initializing the SDK
 
