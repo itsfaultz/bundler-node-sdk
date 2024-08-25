@@ -37,7 +37,7 @@ To buy tokens:
 async function buyTokens() {
   try {
     const buyResult = await sdk.buy({
-      privateKeys: 'your-private-key',
+      privateKeys: 'privatekey1,privatekey2',
       tokenAddress: 'token-address',
       amount: '0.001', // Amount in SOL to buy on each wallet
     });
@@ -56,7 +56,7 @@ To sell tokens:
 async function sellTokens() {
   try {
     const sellResult = await sdk.sell({
-      privateKeys: 'your-private-key',
+      privateKeys: 'privatekey1,privatekey2',
       tokenAddress: 'token-address',
       amount: '100', // Amount of tokens to sell
     });
@@ -75,8 +75,8 @@ To create a new token:
 async function createToken() {
   try {
     const createResult = await sdk.create({
-      privateKeys: 'your-private-key',
-      devPrivateKey: process.env.DEV_PRIVATE_KEY,
+      privateKeys: 'privatekey1,privatekey2',
+      devPrivateKey: 'privatekey',
       amount: '0.01', // Amount in SOL to buy on each wallet
       name: 'My Token',
       symbol: 'MTK',
