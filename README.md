@@ -39,7 +39,7 @@ async function buyTokens() {
     const buyResult = await sdk.buy({
       privateKeys: 'your-private-key',
       tokenAddress: 'token-address',
-      amount: '0.001', // Amount in SOL
+      amount: '0.001', // Amount in SOL to buy on each wallet
     });
     console.log('Buy successful:', buyResult);
   } catch (error) {
@@ -76,7 +76,8 @@ async function createToken() {
   try {
     const createResult = await sdk.create({
       privateKeys: 'your-private-key',
-      amount: '1000000', // Total supply
+      devPrivateKey: process.env.DEV_PRIVATE_KEY,
+      amount: '0.01', // Amount in SOL to buy on each wallet
       name: 'My Token',
       symbol: 'MTK',
       description: 'A sample token',
