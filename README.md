@@ -58,7 +58,7 @@ async function sellTokens() {
     const sellResult = await sdk.sell({
       privateKeys: 'privatekey1,privatekey2',
       tokenAddress: 'token-address',
-      amount: '100', // Amount of tokens to sell
+      percentage: '100', // Percentage to sell for each wallet
     });
     console.log('Sell successful:', sellResult);
   } catch (error) {
