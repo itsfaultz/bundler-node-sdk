@@ -1,4 +1,4 @@
-# PredatorSDK Documentation
+# Javascript PredatorSDK Documentation
 
 ## Introduction
 
